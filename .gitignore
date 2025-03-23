@@ -1,0 +1,41 @@
+# Visual Studio y Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build y binarios
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.idb
+*.tlog
+*.log
+*.csproj.user
+
+# Paquetes y dependencias
+packages/
+node_modules/
+wwwroot/lib/
+
+# Configuración y archivos temporales
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+secrets.json
+.env
+*.log
+logs/
+
+# Archivos de Docker y Kubernetes (si aplican)
+docker-compose.override.yml
+.kube/
+
+# Publicaciones
+publish/
